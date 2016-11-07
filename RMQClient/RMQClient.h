@@ -49,11 +49,6 @@
 // under either the MPL or the ASL License.
 // ---------------------------------------------------------------------------
 
-#if TARGET_OS_IOS
-#import <UIKit/UIKit.h>
-#else
-#import <AppKit/AppKit.h>
-#endif
 #import <RMQClient/RMQConnection.h>
 #import <RMQClient/RMQErrors.h>
 #import <RMQClient/RMQBasicProperties.h>
